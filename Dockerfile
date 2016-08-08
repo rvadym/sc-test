@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Snapcart
+MAINTAINER SC-test
 
 # Set correct environment variables.
 ENV HOME /root
