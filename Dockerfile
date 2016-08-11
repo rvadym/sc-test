@@ -87,7 +87,7 @@ RUN \
     apt-get update -y && apt-get install -y \
         nodejs && \
 
-    # Install elastick dump
+    npm install elasticdump -g && \
     npm install bower -g && \
     npm install less -g && \
 
