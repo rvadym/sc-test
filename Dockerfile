@@ -68,7 +68,7 @@ RUN \
 		php5-imap \
 		php5-curl \
 		php5-oauth \
-		#php5-redis \
+		php5-redis \
 		php5-ps \
 		php5-enchant \
 		php5-xsl \
