@@ -31,7 +31,7 @@ RUN \
     # Install required software
     apt-get update && apt-get install --no-install-recommends -y \
 
-        apache2 php5 \
+        openssh-client apache2 php5 \
 
 		curl ca-certificates \
 
