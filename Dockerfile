@@ -71,5 +71,3 @@ RUN curl https://getcomposer.org/installer | php -- && mv composer.phar /usr/loc
 
 # Allow mounting files
 VOLUME ["/root"]
-
-EXPOSE 9000
