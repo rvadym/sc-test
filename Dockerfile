@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
 
 RUN apt-get update \
     && apt-get -y --no-install-recommends install \
+    php-xdebug \
     php-memcached  \
     php7.1-mysql  \
     php-redis  \
