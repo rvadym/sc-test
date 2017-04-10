@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
 		unzip \
 		vim \
 		wget \
+		cron \
 		sudo
 
 RUN apt-get update \
