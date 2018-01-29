@@ -46,6 +46,7 @@ RUN mkdir -m 777 /var/tmp/project && mkdir -m 777 /var/tmp/project/vendor && mkd
 
 # Install composer
 RUN curl https://getcomposer.org/installer | php -- && mv composer.phar /usr/local/bin/composer && chmod +x /usr/local/bin/composer
+RUN composer global require --optimize-autoloader "hirak/prestissimo"
 
 # Allow mounting files
 VOLUME ["/root"]
