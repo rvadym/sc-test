@@ -27,7 +27,7 @@ RUN apt-get update \
     php-imagick  \
     php7.1-intl  \
     php7.1-mbstring  \
-    php-yaml  && \
+    php-yaml \
     build-essential && \
 
 
