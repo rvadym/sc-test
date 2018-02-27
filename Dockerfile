@@ -28,6 +28,7 @@ RUN apt-get update \
     php7.1-intl  \
     php7.1-mbstring  \
     php-yaml  && \
+    build-essential && \
 
 
     curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash - && \
