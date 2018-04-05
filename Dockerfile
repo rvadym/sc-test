@@ -1,4 +1,4 @@
-FROM phpdockerio/php71-fpm:latest
+FROM phpdockerio/php72-fpm:latest
 
 RUN apt-get update && apt-get install --no-install-recommends -y \
 		sqlite3 \
@@ -17,17 +17,17 @@ RUN apt-get update \
     && apt-get -y --no-install-recommends install \
     php-xdebug \
     php-memcached  \
-    php7.1-mysql  \
+    php7.2-mysql  \
     php-redis  \
-    php7.1-sqlite3  \
-    php7.1-bcmath  \
-    php7.1-bz2  \
-    php7.1-dba  \
-    php7.1-gd  \
-    php7.1-gmp  \
+    php7.2-sqlite3  \
+    php7.2-bcmath  \
+    php7.2-bz2  \
+    php7.2-dba  \
+    php7.2-gd  \
+    php7.2-gmp  \
     php-imagick  \
-    php7.1-intl  \
-    php7.1-mbstring  \
+    php7.2-intl  \
+    php7.2-mbstring  \
     php-yaml \
     build-essential && \
 
